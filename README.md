@@ -1,37 +1,33 @@
-# Readme Generator README
+# Readme_Generator README
 
 # Table of contents
 1. [Project Description](#descriptionLink)
 2. [Installation](#installationLink)
 3. [Usage](#usageLink)
-4. [Contributing](#contributingLink)
-2. [Tests](#testsLink)
-3. [Version](#versionLink)
-7. [License](#licenseLink)
+4. [Version](#versionLink)
+5. [Dependencies](#dependenciesLink)
+6. [Contact](#contactLink)
 
 
 ----
 
 ## Project Descripton <a name="descriptionLink"></a>
-This app creates a README.md dynamically with user input
+This CLI app takes user-provided info to dynamically create a formatted README.md.
 
 ## Installation <a name="installationLink"></a>
-clone repo
+Clone repo
 
 ## Usage <a name="usageLink"></a>
-run node index.js
+In the terminal, run ```node index.js```
 
-## Contributing <a name="contributingLink"></a>
-N/A
-
-## Tests <a name="testsLink"></a>
-N/A
 
 ## Version <a name="versionLink"></a>
 ![Version](https://img.shields.io/badge/Version-1.0-f39f37)
 
-## License <a name="licenseLink"></a>
-![License](https://img.shields.io/badge/License-MIT-brightgreen)
+## Dependencies <a name="dependenciesLink"></a>
+-Axios
+-Inquirer
+-Badges provided by Shields.io
 
 
 
