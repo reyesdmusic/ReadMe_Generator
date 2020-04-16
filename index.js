@@ -81,7 +81,7 @@ function getUserInfo() {
     },
     {
         type: "input",
-        message: "Enter license information:",
+        message: "Enter license type:",
         name: "licenseInfo"
     },
     {
@@ -96,7 +96,7 @@ function getUserInfo() {
     },
     {
         type: "input",
-        message: "Enter Version Info:",
+        message: "Enter Version Number:",
         name: "userVersion"
     }])
     .then((response) =>  {

@@ -32,15 +32,18 @@ ${readMeData.userContributing}
 ${readMeData.userTests}
 
 ## Version <a name="versionLink"></a>
-${readMeData.userVersion}
+![Version](https://img.shields.io/badge/Version-${readMeData.userVersion}-f39f37)
 
 ## License <a name="licenseLink"></a>
-${readMeData.licenseInfo}
+![License](https://img.shields.io/badge/License-${readMeData.licenseInfo}-brightgreen)
+
 
 
 ## Contact <a name="contactLink"></a>
 ![Photo](${readMeData.gitPhotoUrl})
-#### Github Username: @${readMeData.userName}
+
+![Followers](<https://img.shields.io/github/followers/${readMeData.userName}?style=social>)
+#### Github Username: [@reyesdmusic](https://www.github.com/${readMeData.userName})
 #### Email: ${readMeData.userEmail}
 `
 
