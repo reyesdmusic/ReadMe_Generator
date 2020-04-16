@@ -26,7 +26,9 @@ In the terminal, run ```node index.js```
 
 ## Dependencies <a name="dependenciesLink"></a>
 -Axios
+
 -Inquirer
+
 -Badges provided by Shields.io
 
 
