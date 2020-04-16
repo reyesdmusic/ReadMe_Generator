@@ -40,11 +40,6 @@ function getUserInfo() {
       .then(getOtherInfo);
     }
 
-    function printReadMe(thisNewUser) {
-        console.log(thisNewUser.userName);
-        console.log(thisNewUser.userEmail);
-    }
-
     function getUserGitHub(userName) {
         const queryUrl = `https://api.github.com/users/${userName}`;
         axios.get(queryUrl)
@@ -52,7 +47,7 @@ function getUserInfo() {
             gitHubName = res.data.login;
             gitPhotoUrl = res.data.avatar_url;
           })
-          .catch(function(err) { return console.log("Username not found, enter control C and run application")});
+          .catch(function(err) { return console.log('Username not found, enter "control C" and then run "node index.js"')});
         }
     
     getUserInfo(); 
@@ -109,8 +104,6 @@ function getUserInfo() {
         let readMeData = new newUser(gitHubName, gitPhotoUrl, response.userEmail, response.projectTitle, response.projectDescription, response.installationMethod, response.usageInfo, response.licenseInfo, response.userContributing, response.userTests, response.userVersion);
 
         createReadme(readMeData);
-
-       
       
         })
         .catch(function(err) {
